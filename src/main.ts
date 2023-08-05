@@ -5,7 +5,7 @@ import DatabaseConfig from "./examples/simple-database-connection/database-confi
 const db = new PostgresProvider();
 const dbConfig = new DatabaseConfig({
   url: "http://localhost",
-  port: 8080,
+  port: 10000,
 });
 
 const databaseConnector = new DatabaseConnector(db, dbConfig);
