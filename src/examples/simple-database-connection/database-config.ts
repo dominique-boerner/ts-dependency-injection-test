@@ -11,6 +11,6 @@ export default class DatabaseConfig {
   }
 
   public getConnectionUrl() {
-    return `${this.url}/${this.port}`;
+    return `${this.url}:${this.port}`;
   }
 }
